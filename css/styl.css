@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+i{
+  cursor: pointer;
+}
+header {
+  height: 100vh;
+  background-image: url("/image/home/banner2.jpg");
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+}
+
+header .layout {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 140px;
+}
+
+.logo {
+  margin: 45px 90px 0px 90px;
+  font-size: 36px;
+  color: #fff;
+}
+.b {
+  color: #1769ff;
+}
+
+nav .bar ul {
+  display: flex;
+  margin: 55px 208px 0 0;
+}
+
+nav .bar ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav .bar ul li a {
+  color: #ceced0;
+  text-decoration: none;
+}
+
+nav .bar ul li a:hover{
+  color: #fff;
+}
+.btn {
+  width: 185px;
+  height: 55px;
+  margin-top: 35px;
+  border: 0;
+  border-radius: 5px;
+  color: #1769ff;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.head-top {
+  font-size: 12px;
+  color: #1769ff;
+  margin-top: 145px;
+}
+
+.head-mid h2 {
+  font-size: 90px;
+  color: #fff;
+}
+
+.head-mid {
+  text-align: left;
+  margin-left: 90px;
+}
+
+.bttn,.bttn a {
+  width: 185px;
+  height: 55px;
+  margin-top: 35px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #1769ff;
+  cursor: pointer;
+  color: #fff;
+}
+
+.img  img {
+  margin-left:90px;
+  width: calc(60%/5);
+  height: calc(100%/5);
+  margin: top 50px;
+cursor: pointer;
+margin-right: -4%;
+}
+.img {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 630px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 180px;
+  width: 1170px;
+  margin-left: 70px;
+  margin-bottom: 125px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+
+
+
+.img img {
+  margin-left: 80px;
+  width: calc(60% / 5);
+  height: calc(100% / 5);
+  margin-top: 50px;
+  cursor: pointer;
+  margin-right: -4%;
+  filter: grayscale(100%);
+  transition: 10ms;
+}
+
+.sec-mid {
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  margin-bottom: 75px;
+}
+
+.head-mid img {
+  border-radius: 10px;
+  float: left;
+  width: 40%;
+}
+
+.sec-p1 {
+  color: rgb(17, 17, 17);
+  margin: 120px 150px 30px 70px;
+}
+
+.img img:hover {
+  filter: grayscale(0%);
+}
+
+.pra  {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 600;
+  margin: 190px 50px 35px 580px;
+}
+
+.pra .p1{
+  margin-bottom: 30px;
+}
+
+.pra .p2 ,.p3{
+  margin-bottom: 45px;
+ color: rgb(141,119,119);
+}
